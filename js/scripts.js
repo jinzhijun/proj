@@ -218,7 +218,7 @@
 			$(this).find('a').attr('href','#');
 			break;
          case 3:
-			$(this).find('a').attr('href','http://localhost/ci/index.php/login/logout');
+			$(this).find('a').attr('href','http://localhost/proj/index.php/login/logout');
 			 break;
 
 		}
@@ -227,31 +227,31 @@
     $('div.left-notification li').each(function(i) {
       switch(i) {
         case 0:
-          $(this).find('a').attr('href','http://localhost/ci/index.php/index/index');
+          $(this).find('a').attr('href','http://localhost/proj/index.php/index/index');
           break;
         case 1:
-          $(this).find('a').attr('href','http://localhost/ci/index.php/zhubo/common');
+          $(this).find('a').attr('href','http://localhost/proj/index.php/zhubo/common');
           break;
         case 2:
-          $(this).find('a').attr('href','http://localhost/ci/index.php/video/topic');
+          $(this).find('a').attr('href','http://localhost/proj/index.php/video/topic');
           break;
         case 3:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/prop/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/prop/index');
           break;
         case 4:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/fund/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/fund/index');
           break;
         case 5:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/report/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/report/index');
           break;
         case 6:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/article/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/article/index');
           break;
         case 7:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/message/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/message/index');
           break;
         case 8:
-          $(this).find('a').attr('href', 'http://localhost/ci/index.php/system/index');
+          $(this).find('a').attr('href', 'http://localhost/proj/index.php/system/index');
           break;
       }
     });
