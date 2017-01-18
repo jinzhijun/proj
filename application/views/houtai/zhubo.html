@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            nav ul{
+                width: 150px;
+                text-align: center;
+                
+            }
+            li{background-color:#99ccff;padding:5px; }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav class="sidebar" >
+                <ul class="nav nav-pills nav-stacked" role='tablist'>
+                    <li class="dropdown">
+                       <a class="dropdown-toggle" data-toggle='dropdown' herf="#"><span>主播管理</span></a>
+                       <ul class="dropdown-menu">
+                            <li class="secondmenu">
+                                <a href="#"><span>普通主播</span></a>
+                            </li>
+                             <li class="secondmenu">
+                                <a href="#"><span>认证主播</span></a>
+                            </li>
+                             <li class="secondmenu">
+                                <a href="#"><span>机器人头像</span></a>
+                            </li>
+                        </ul>
+                    
+                    </li>
+                    <li>
+                        <a href='#'>无效主播</a>    
+                    </li>
+                    <li class='dropdown'>
+                        <a class='dropdown-toggle' data-toggle='dropdown'>认证管理</a>
+                        <ul class='dropdown-menu' >
+                            <li class="secondmenu">
+                                <a href="#"><span>主播待审认证</span></a>
+                            </li>
+                             <li class="secondmenu">
+                                <a href="#"><span>认证未通过</span></a>
+                            </li>
+                             <li class="secondmenu">
+                                <a href="#"><span>认证名称列表</span></a>
+                            </li>
+                        </ul>  
+                    </li>
+                         
+                  
+                </ul>
+            </nav>
+            
+            <div class="content">
+                <h3>会员等级</h3>
+                <span>从数据库中取出的信息，这个信息可以通过把string赋值给一个变量，然后再赋值到这个标签/载入模版文件</span>
+                    
+            </div>
+        </div>
+        <?php
+        // put your code here
+        ?>
+    </body>
+</html>
