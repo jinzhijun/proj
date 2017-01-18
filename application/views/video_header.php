@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title><?php echo $title ?>机器人头像列表</title>
+    <title>视频管理</title>
 
     <!--common style-->
     <link href=<?php echo base_url("css/style.css")?> rel="stylesheet">
